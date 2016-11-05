@@ -1,0 +1,23 @@
+{
+    "name": "skydiver/laravel-flysystem-b2",
+    "description": "Backblaze B2 services as Laravel filesystem",
+    "keywords": ["Backblaze", "B2", "Laravel", "filesystem", "flysystem"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support":">=5.1",
+        "mhetreramesh/flysystem-backblaze": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Martin M.",
+            "email": "labs@flydev.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Skydiver\\LaravelFlysystemB2\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
