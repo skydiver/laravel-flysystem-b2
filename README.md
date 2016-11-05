@@ -2,7 +2,7 @@
 
 
 ### Introduction
-Adds Backblaze B2 services as Laravel filesystem
+Adds Backblaze B2 driver to use with Laravel filesystem
 
 
 ### Installation
