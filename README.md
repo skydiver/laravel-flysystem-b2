@@ -20,3 +20,13 @@ After installing, register the `Skydiver\LaravelFlysystemB2\B2ServiceProvider` i
     Skydiver\LaravelFlysystemB2\B2ServiceProvider::class,
 ],
 ```
+
+You will also need to add the new driver in your `config/filesystems.php` configuration file:
+```php
+'b2' => [
+    'driver'         => 'b2',
+    'bucket'         => '<my bucket name>',
+    'accountId'      => '<b2 account id>',
+    'applicationKey' => '<b2 application key>'
+],
+```
