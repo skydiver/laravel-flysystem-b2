@@ -18,6 +18,5 @@
         "psr-4": {
             "Skydiver\\LaravelFlysystemB2\\": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
